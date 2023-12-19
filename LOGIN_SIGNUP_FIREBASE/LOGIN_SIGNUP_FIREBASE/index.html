@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title></title>
+</head>
+<body>
+
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button onclick="login()" type="button" class="toggle-btn" >Log in</button>
+                <button  onclick="register()" type="button" class="toggle-btn" >Sign up</button>
+            </div>
+
+                <div class="social-icon">
+                   <img   id="signinWithGoogle" src="images/gp.png" alt=""></button>
+                </div>
+
+        <div id="loginInput" class="input-group">
+            <input  type="loginEmail" class="input-field" placeholder="Enter Your Email">
+            <input id="loginPassword" type="password" class="input-field" placeholder="Enter Your Passward ">
+             <input id="password" f type="checkbox" class="check-box"> <span>Remember Passward</span>
+             <button type="submit" class="submit-btn" id="login-btn">Log in </button>
+        </div>
+
+        <div id="registerInput" class="input-group">
+            <input id="fullName" type="text" class="input-field" placeholder="Enter Your Name ">
+            <input id="registerEmail" type="email" class="input-field" placeholder="Enter Your Email">
+            <input  id="registerPassword" type="password" class="input-field" placeholder="Enter Your Passward">
+            <input type="checkbox" class="check-box"> <span>I Agree To The Terms & Conditions</span>
+            <button  id="signup-btn" type="submit" class="submit-btn">Sign up </button>
+        </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <script src="signup-login.js"></script>
+  <script src="login.js" type="module"></script>
+<script  src="firebase.js" type="module"></script>
+<script  src="app.js" type="module"></script>
+
+</body>
+
+
+
+</html>
